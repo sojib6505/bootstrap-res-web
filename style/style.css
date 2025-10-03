@@ -150,13 +150,14 @@ img{
    left: 45px;
     z-index: -1;
     transform: rotate(5deg);
+
 }
 .banner-card .card:nth-child(3){
    position: absolute;
    top: 0;
    left: 80px;
     z-index: -2;
-    transform: rotate(12deg);
+    transform: rotate(-12deg);
 }
   /* ================================================================blog section Start========================== */
 

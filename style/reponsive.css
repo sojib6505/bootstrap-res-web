@@ -3,13 +3,425 @@
 
 }
 @media (min-width: 1200px) and (max-width: 1399.98px){
-
+#community{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.community-card .card{
+    width: 330px;
+}
+.community-content h2{
+ font-size: 38px;
+}
+    /*===================about===================  */
+.about-main{
+  display: flex;
+  gap: 50px;
+}
+.about-img{
+  gap: 10px;
+}
+.about-img{
+  max-width: 180px;
+}
+.about-content p{
+  max-width: 400px;
+}
 }
 @media (min-width: 992px) and (max-width: 1199.98px){
+#main-menu {
+padding-top: 10px;
+padding-left: 5px;
     
 }
-@media (min-width: 768px) and (max-width: 991.98px){
+.primary-btn{
+  width: 90px;
+  font-size: 12px;
+  padding: 15px;
+  border-radius: 12px;
+ 
+}
+.secondary-btn{
+  padding: 12px 12px;
+  font-size: 12px;
+  font-size: 18px;
+}
+/* ==================banner Start============================== */
+.card-main{
+    display: flex;
+    justify-content: center;
+}
+.banner-content h1 {
+    font-size: 90px;
+    line-height: 80px;
+    text-align: left;
+}
+.banner-row {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.banner-content p{
+  font-size: 28px;
+  margin-top: 0;
+  text-align: left;
+}
+.card {
+    width: 220px;
+    padding: 5px;
+    /* margin: auto; */
+}
+.banner-card .card{
+    margin-top: 10px;
+}
+.card p {
+    padding: 5px 7px;
+    top: 10px;
+    left: 10px;
+}
+.card-heading {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.card span {
+    font-size: 12px;
+    font-weight: 400;
+}
+.banner-card .card:nth-child(2){
+    transform: rotate(5deg);
+}
+.banner-card .card:nth-child(3){
+    transform: rotate(15deg);
+}
+/* ==================banner End============================== */
+/* ===================blog Section Strat=================== */
+.row-card-content h3 {
+    font-size: 20px;
+}
+/* ==============================community section start */
+#community{
+    margin-top: 20px;
+  margin-bottom: 50px;
+}
+.community-main{
+  background-color: #000000;
+  border-radius: 28px;
+}
+
+
+.community-content h2{
+ font-size: 28px;
+  margin-top:30px ;
+  margin-bottom: 14px;
+}
+.community-content p{
+  color: #FFFFFF;
+  margin-bottom: 42px;
+}
+
+/*================================================== Community Section end================================================ */
+/* ===============================================about section start================================================= */
+.about-main{
+  display: flex;
+  gap: 50px;
+}
+.about-img{
+  gap: 10px;
+}
+.about-img{
+  max-width: 180px;
+}
+.about-content p{
+  max-width: 400px;
+}
+/* ==============================animation Ssection======================= */
+#about {
+    padding: 0;
+    margin-bottom: 20px;
+}
+.slide-track img {
+    width: 200px;
+    height: 200px;
+}
+.slide-track {
+    width: calc(220px * 18);
+}
+/* =======================footer  section================================== */
+.footer-card-1 {
+    width: 240px;
+}
+.footer-card-2 {
+    width: 240px;
+}
+.footer-card img{
+  border-radius: 12px;
+}
+.footer-card h2{
+  font-size: 12px;
+}
+.footer-card button{
+    padding: 8px;
+  width: 120px;
+}
+.footer-content {
+    padding-top: 40px;
+}
+.community-input {
+    margin-bottom: 25px;
+}
+.footer-content p {
+    font-size: 24px;
+}
+}
+@media (min-width: 768px) and (max-width: 991.98px){  
+#main-menu {
+padding-top: 0;
+padding-left: 5px;
     
+}
+.navbar-collapse {
+    align-items: end;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} 
+.primary-btn{
+  width: 90px;
+  font-size: 12px;
+  padding: 15px;
+  border-radius: 12px;
+ 
+}
+.secondary-btn{
+  padding: 12px 12px;
+  font-size: 12px;
+}
+/* ==================banner Start============================== */
+.card-main{
+    display: flex;
+    justify-content: center;
+}
+.banner-content h1 {
+    font-size: 90px;
+    line-height: 120px;
+    text-align: center;
+}
+.banner-row {
+    padding-top: 10px;
+}
+.banner-content p{
+  font-size: 28px;
+  margin-top: 0;
+  text-align: center;
+}
+.card {
+    width: 250px;
+    padding: 5px;
+    /* margin: auto; */
+}
+.banner-card .card{
+    margin-top: 10px;
+}
+.card p {
+    padding: 5px 7px;
+    top: 10px;
+    left: 10px;
+}
+.card-heading {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.card span {
+    font-size: 10px;
+    font-weight: 400;
+}
+.banner-card .card:nth-child(2){
+    transform: rotate(5deg);
+}
+.banner-card .card:nth-child(3){
+    transform: rotate(15deg);
+}
+/* ==================banner End============================== */
+/* ===================blog Section Strat=================== */
+.blog-main .tittle{
+    margin-top: 20px;
+      font-size: 32px;
+    margin-bottom: 10px;
+}
+.blog-wrapper .card-large {
+    max-width: 850px;
+    padding: 0;
+    margin: auto;
+    margin-top: 5px;
+}
+.blog-wrapper .card-large h3 {
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.blog-wrapper .card-large span {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.row-card-content h3 {
+    font-size: 24px;
+}
+.row-card-content span {
+    font-size: 18px;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    
+}
+.row-single-card{
+    display: flex;
+    gap: 40px;
+}
+.blog-main{
+  padding:  0;
+  
+}
+/* ==========================blog categories */
+.categories-item {
+    gap: 10px;
+}
+.categories-item span {
+    padding: 12px 12px;
+}
+#categories {
+    margin-bottom: 50px;
+}
+/* ===============================featured blog====================================== */
+#featured-blog .secondary-btn {
+    width: 90px;
+}
+.featured-blog-card .card {
+    padding: 5px;
+}
+.featured-blog-card{
+    padding: 5px;
+    margin: auto;
+}
+.featured-blog-card .card p {
+    top: 15px;
+    left: 15px;
+}
+
+/* featured blog */
+#featured-blog {
+    margin-bottom: 50px;
+}
+/* ==============================community section start */
+#community{
+  margin-bottom: 50px;
+}
+.community-main{
+  background-color: #000000;
+  border-radius: 28px;
+}
+.community-content-main{
+  padding: 5px;
+}
+.community-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.community-content h2{
+  color: #FFFFFF;
+  margin-top:30px ;
+  margin-bottom: 14px;
+}
+.community-content p{
+  color: #FFFFFF;
+  margin-bottom: 42px;
+  margin: auto;
+}
+.community-input{
+   max-width: 450px;
+   display: flex;
+   justify-content: space-between;
+   background-color: #FFFFFF;
+   padding: 4px 10px;
+   border-radius: 12px;
+}
+.community-input input{
+  width: 100%;
+  padding: 10px 15px;
+  border: none;
+
+}
+.community-input button{
+  text-wrap: nowrap;
+  width: auto;
+}
+.community-card .card{
+  max-width: 350px;
+  border-radius: 16px;
+  margin:auto;
+  margin-bottom: 20px;
+}
+/*================================================== Community Section end================================================ */
+/* ===============================================about section start================================================= */
+.about-content h2 {
+    line-height: 25px;
+}
+.about-main {
+    gap: 5px;
+}
+.about-img{
+  /* margin: auto; */
+  width: 100px;
+}
+.about-img img{
+  max-width: 140px;
+}
+.about-content h2{
+  max-width: 404px;
+  letter-spacing: -1.6px;
+  line-height: 30px;
+  font-size: 24px;
+}
+.about-content p {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+/* ==============================animation Ssection======================= */
+#about {
+    padding: 0;
+    margin-bottom: 20px;
+}
+.slide-track img {
+    width: 180px;
+    height: 180px;
+}
+.slide-track {
+    width: calc(200px * 18);
+}
+/* =======================footer  section================================== */
+.footer-card-1 {
+    display: none;
+}
+.footer-card-2 {
+    display: none;
+}
+.footer-content h3 {
+    line-height: 40px;
+}
+.footer-content {
+    padding-top: 30px;
+}
+.community-input {
+    margin-bottom: 25px;
+}
+.footer-content p {
+    padding-bottom: 28px;
+}
+.footer-last{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}       
 }
 @media (min-width: 576px) and (max-width: 767.98px){
 #main-menu {
@@ -389,7 +801,7 @@ padding-left: 5px;
   margin: auto;
 } */
 .about-img img{
-  max-width: 130px;
+  max-width: 140px;
 }
 .about-content p {
     margin-bottom: 20px;

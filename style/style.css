@@ -157,7 +157,7 @@ img{
    top: 0;
    left: 80px;
     z-index: -2;
-    transform: rotate(-12deg);
+    transform: rotate(15deg);
 }
   /* ================================================================blog section Start========================== */
 
@@ -333,8 +333,6 @@ img{
 }
 .community-content-main{
   padding: 80px 175px 85px 80px;
-
-  
 }
 .community-content h2{
   color: #FFFFFF;
@@ -503,7 +501,6 @@ img{
 }
 .footer-card img{
   border-radius: 12px;
-
 }
 .footer-card h2{
   font-size: 16px;
